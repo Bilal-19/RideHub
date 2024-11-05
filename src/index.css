@@ -1,0 +1,199 @@
+.heading-h1{
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.heading-h2{
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.heading-h3{
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.body-text{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.cta-style{
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+nav{
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+footer{
+  font-family: "Open Sans", sans-serif;
+  font-style:normal;
+  font-size: 14px;
+}
+
+.company-logo{
+  height: 38px;
+}
+
+.bg-dark-cyan {
+  background-color: #026144;
+}
+
+#home-banner {
+  background-image: url("../home_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.obj-fit-cover {
+  object-fit: cover;
+}
+
+.text-dark-cyan {
+  color: #026144;
+}
+
+.owner-img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.count-box{
+  padding: 10px 12px;
+  border-radius: 15px;
+  background-color: #026144;
+  color: white;
+}
+
+.count-box:hover{
+  color: #026144;
+  background-color: white;
+  border: 1px solid #026144;
+  cursor: pointer;
+}
+
+.partners-img {
+  height: 500px;
+  width: 900px;
+  object-fit: cover;
+}
+
+.car-card{
+  height: 310px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #026144;
+  border-radius: 12px;
+}
+
+.car-card > img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-img-top{
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.brand-btn{
+  width: fit-content;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  color: #026144;
+}
+
+.brand-btn:hover{
+  color: white;
+  background-color: #026144;
+  cursor: pointer;
+}
+
+.contact-us-btn{
+  margin-top: 10px;
+  width: fit-content;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background-color: #026144;
+}
+.social-icons{
+  height: 30px;
+  width: 30px;
+}
+
+
+.driver-card{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #026144;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.driver-profile-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2px auto;
+}
+
+.contact-icon{
+  height: 20px;
+  width: 20px;
+  color: #026144;
+}
+@media screen and (max-width: 768px) {
+  .company-logo{
+    height: 35px;
+  }
+
+  #home-banner{
+    height: 75vh;
+  }
+
+  .heading-h1{
+    font-size: 30px;
+  }
+  
+  .heading-h2{
+    font-size: 25px;
+  }
+  
+  .heading-h3{
+    font-size: 20px;
+  }
+
+  .mb-sm-40{
+    margin-bottom: 40px;
+  }
+}
